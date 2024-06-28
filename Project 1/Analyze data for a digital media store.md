@@ -258,7 +258,7 @@ ON
 
 ## 🧑‍🤝‍🧑 4. HR Questions 
 
-A new HR employee was recruited and is interested in knowing more about the company's employees. He is in charge of organising birthday parties and hire anniversaries, and needs to retrieve some data about it. He also wants to know about employees addresses to study potential home office arrangaments. Further, he has other HR related questions about hiring and reporting lines. He has sent the following questions. 
+A new HR Officer was recruited and is interested in knowing more about the company's employees He has sent the following questions. 
 
 1. How many employees have their birthday in May?
 
