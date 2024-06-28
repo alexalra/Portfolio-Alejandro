@@ -84,10 +84,9 @@ LIMIT
   <summary>Answer</summary>
   
 
-
+```
 16 genres
-
-
+```
 Code
 
 ```sql
