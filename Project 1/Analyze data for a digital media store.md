@@ -255,3 +255,193 @@ ON
   TABLE_1.LAST_NAME =  TABLE_2.LAST_NAME
 ```
 </details>
+
+## 🧑‍🤝‍🧑 4. HR Questions 
+
+A new HR employee was recruited and is interested in knowing more about the company's employees. He is in charge of organising birthday parties and hire anniversaries, and needs to retrieve some data about it. He also wants to know about employees addresses to study potential home office arrangaments. Further, he has other HR related questions about hiring and reporting lines. He has sent the following questions. 
+
+1. How many employees have their birthday in May?
+
+  
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+Two employees have their birthday in May.
+```
+Code
+
+```sql
+
+SELECT
+  COUNT(NEWDATE) AS EMPLOYEES_BIRTHDAY_MAY
+FROM
+  (SELECT
+    SUBSTRING(date(HireDate),6,2) AS NEWDATE
+  FROM
+    Employee
+  WHERE
+    NEWDATE = '05');
+
+```
+</details>
+
+2. Which months count with more hires?
+  
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+October and May with 2 hires each
+```
+Code
+
+```sql
+SELECT
+  SUBSTRING(date(HireDate),6,2) AS MONTH,
+  COUNT(HireDate) as NUMBER_OF_HIRES
+FROM
+  Employee
+GROUP BY
+  MONTH 
+ORDER BY
+  2 DESC;
+
+```
+</details>
+
+3. On which year was the highest peak in hiring registered?
+
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+During 2003 and 2002 with 3 hires each year. 
+```
+Code
+
+```sql
+SELECT
+  SUBSTRING(date(HireDate),0,5) AS HIRE_YEAR,
+  COUNT(HireDate)
+FROM
+  Employee
+GROUP BY
+  HIRE_YEAR
+ORDER BY
+  2 DESC;
+
+```
+</details>
+
+
+4. Which different phone prefixes employees have?
+
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+When I first tried to check the different prefixes, I noticed that not all of them where formated in the same way.
+
+I tried substracting values to keep only the prefixes, but one of them was formated differently.
+
+See the screenshot below. 
+```
+Code
+
+```sql
+
+SELECT
+  SUBSTR(phone,4, 4) AS PREFIX
+FROM
+  Employee
+
+```
+![image](https://github.com/alexalra/SQL-Practice/assets/78654579/93c41119-356a-4d43-a2c6-6ed13d3f0625)
+
+ <summary>Answer</summary>
+  
+
+```
+I made some changes in the code to take into account the uneven data.
+I found that there are 2 different prefixes, 780 and 403.
+```
+Code
+
+```sql
+
+SELECT
+  SUBSTRING(phone,5, 3) AS VALUES_1
+FROM
+  Employee
+WHERE
+  phone LIKE '+1%';
+
+SELECT
+  SUBSTRING(phone,4, 3) AS VALUES_2
+FROM
+  Employee
+WHERE
+  phone LIKE '1%';
+
+
+```
+</details>
+
+
+5. How many employees have a name starting with a vowel? 
+
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+Only one employee, Andrew
+```
+Code
+
+```sql
+
+SELECT *
+FROM
+  Employee
+WHERE
+  FirstName LIKE ('A%') OR ('E%') OR ('I%') OR  ('O%') OR ('U%')
+
+```
+</details>
+
+6. Which employee has the longest name and surname (altogether)? 
+<details>
+
+  <summary>Answer</summary>
+  
+
+```
+Michael Mitchell with 15 characters altogether
+```
+Code
+
+```sql
+SELECT
+  FULLNAME, LENGTH(FULLNAME) AS LENGTH
+FROM
+  (SELECT
+      FirstName || LastName AS FULLNAME
+    FROM
+      Employee) 
+ORDER BY
+  2 DESC
+```
+![image](https://github.com/alexalra/SQL-Practice/assets/78654579/ed0ebde8-a3f2-4151-9569-6cefb163e5f4)
+
+</details>
