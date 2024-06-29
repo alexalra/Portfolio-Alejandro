@@ -5,7 +5,7 @@ This repository provides several projects I completed using SQL and other tools,
  Project Name  | Description   |  Topic
 ------------- | ------------- | ------------------
 [Analyze digital media store data](https://github.com/alexalra/Portfolio-Alejandro/blob/main/1.%20Analyze%20data%20for%20a%20digital%20media%20store.md) 
-Create a database for the deliveries of a restaurant
+[Create a database for the deliveries of a restaurant](https://github.com/alexalra/Portfolio-Alejandro/blob/main/2.%20Create%20a%20database%20for%20the%20deliveries%20of%20a%20restaurant.md)
 
 
 
