@@ -203,6 +203,7 @@ WHERE
 ```
 ![image](https://github.com/alexalra/Portfolio-2/assets/78654579/5006fe0a-b09d-4ed9-8039-9d0d09740864)
 
+
 # ⚙️ Create a database for the deliveries of a restaurant
 
 ## 📌 1 Overview
