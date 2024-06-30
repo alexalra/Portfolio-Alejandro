@@ -8,5 +8,10 @@ In this project I will
 
 ## 3 Questions
 
+Let's get a cumulative_revenue or running total of all the profits that were generated internationally for the movies as they were being released.
 
+SELECT movie_id, 
+worldwide AS revenue,
+SUM(worldwide) OVER (ORDER BY movie_id) AS cumulative_revenue
+FROM earning; 
 
