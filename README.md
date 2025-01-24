@@ -1,6 +1,6 @@
 # Portfolio-Alejandro
 
-This repository provides several projects I completed using data analysis tools, it includes the following:
+This repository provides several projects I completed using data analysis tools. It includes the following:
 
  Project Name  | Description   |  Topic
 ------------- | ------------- | ------------------
