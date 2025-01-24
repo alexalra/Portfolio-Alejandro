@@ -13,4 +13,4 @@ This repository provides several projects I completed using data analysis tools,
 
 
 > [!WARNING]
-> This work is aimed at showcasting the author's data analysis skills and should be used for no other purpose or copied by users. I hold no responsibility or liability for the accuracy of the code and data here provided. 
+> This work is aimed at showcasing the author's data analysis skills and should be used for no other purpose or copied by users. The author holds no responsibility or liability for the accuracy of the code and data here provided. 
