@@ -1,0 +1,29 @@
+Exercise_ID,Exercise,Type,Order,Muscle group,Week,Supersets_With,Exercise nr,Calestenics,Wrist stress level,Day,Is_Active
+1,Weighted pull ups,Strenght,Middle,"Back, Core",All,,2,Yes,1,2,1
+29,Explosive pull ups,Plyometric,First,"Back, Core",All,,1,Yes,2,2,1
+2,Weighted dips,Strenght,Middle,Chest,All,31,2,Yes,3,3,1
+3,Australian row,Strenght,Middle,Back,1,7,3,Yes,2,2,1
+4,Plyo Push-Ups,Plyometric,First,Chest,All,22,1,Yes,2,3,1
+5,Suitcase carriers,Heavy carries,Last,"Core, Shoulder",All,,5,Yes,1,3,1
+6,Triceps bar extension,Strenght,Last,"Arms, Shoulder",All,"9,23",4,Yes,2,2,1
+7,Shoulder press (sitting or standing),Strenght,Middle,"Shoulder, Core, Arms",All,"3, 25",3,Yes,2,2,1
+9,Power shrug,"Strenght, Plyometric",Last,Shoulder,All,"23, 6",4,Yes,1,2,1
+10,Chest flies - machine,Strenght,Middle,Chest,All,,4,No,1,3,1
+13,Bulgarian squads,Strenght,Middle,"Legs, Core",1,,4,Yes,1,1,1
+21,Alternating front lunges,"Strenght, Heavy carries",Middle,"Legs, Core",2,,4,Yes,1,1,1
+14,Squads,Strenght,Middle,Legs,1,,2,Yes,1,1,1
+15,Machine leg press,Strenght,Middle,Legs,2,,2,No,0,1,1
+16,Quadriceps extension,Strenght,Last,Legs,All,18,5,No,0,1,1
+17,Romanina deadlift,Strenght,Middle,Legs,All,,3,Yes,1,1,1
+18,Calf raises,Strenght,Last,Legs,All,16,5,Yes,0,1,1
+20,Band/dumbell jumps,Plyometric,First,Legs,1,27,1,Yes,0,1,1
+30,Bulgarian squad jumps,Plyometric,First,"Legs, Core",2,27,1,Yes,0,1,1
+27,Ankle BOSU ball ,Balance,First,Legs,All,"30, 20",1,No,0,1,1
+22,Back extensions,Strenght,Middle,Back,All,8,3,Yes,0,3,1
+23,Lateral raises,Strenght,Last,Shoulder,All,"9,6",4,Yes,1,2,1
+25,Barbell row,Strenght,Middle,"Back, Core",2,7,3,No,1,2,1
+26,Duck Walk Kettlebell Carry,"Heavy carries, Strenght, Balance",,"Shoulder, Arms, Legs",,,,,,1,0
+31,Biceps band curl,Strenght,Middle,Arms,All,2,2,Yes,1,3,1
+19,One leg sit-up,"Strenght, Balance",Middle,Legs,2,,,Yes,0,,0
+8,Hammer Biceps Curl,Strenght,Middle,Arms,All,22,3,Yes,1,3,1
+12,,,,,,,,,,,0
