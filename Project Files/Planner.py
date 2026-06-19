@@ -76,9 +76,8 @@ for step in unique_steps:
     
     st.markdown(" ")
 
-# --- 4. DATA COMPLIANCE AUDIT DASHBOARD ---
+# --- 4. DATA COMPLIANCE ---
 
-# --- 4. DATA COMPLIANCE AUDIT DASHBOARD ---
 st.markdown("---")
 st.subheader("📊 Spreadsheet Rule-Compliance Verification")
 
